@@ -25,55 +25,121 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Mes réalisations</h1>
-        </section>
-        <section>
-            <div>
-                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="">
-                <h2>Site E-commerce</h2>
-                <p>une boutique en ligne complète developpé avec HTML, CSS et javascrit</p>
-                <span>html</span>
-                <span>css</span>
-                <span>js</span>
+    <section class="projets-header">
+        <h1>Mes Réalisations</h1>
+    </section>
+
+    <section class="projets-grid">
+        <div class="card">
+            <div class="card-img">
+                <img src="Image/430dee7c12965d2ee88cbde0cdea7671.jpg" alt="Site E-commerce">
             </div>
-            <div>
-                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="">
-                <h2>Gestion de taches</h2>
-                <p>Application Web pour organiser ses projets quotidiens avec stockage local. </p>
-                <span>python</span>
-                <span>flask</span>
+            <div class="card-content">
+                <h3>Site E-commerce</h3>
+                <p>Une boutique en ligne complète développée avec HTML, CSS et JavaScript pur.</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JS</span>
+                </div>
             </div>
-            <div>
-                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="">
-                <h2>Blog personnel</h2>
-                <p>projet en cours de migration vers laravel pour apprendre le backend.</p>
-                <span>PHP</span>
-                <span>laravel</span>
+            <div class="card-footer">
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Démo</a>
             </div>
-            <div>
-                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="">
-                <h2>Dashboard d'analyse</h2>
-                <p>Visualisation de données dynamique avec python et la bibliothèque Matploitlib.</p>
-                <span>python</span>
-                <span>data</span>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="Image/f37dce61c50136e8f7ee1f5fc46d47db.jpg" alt="Gestionnaire de Tâches">
             </div>
-            <div>
-                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="">
-                <h2>Application Metéo</h2>
-                <p>une application utilisant une API en temps réel pour afficher la metéo mondiale.</p>
-                <span>javascrit</span>
-                <span>API</span>
+            <div class="card-content">
+                <h3>Gestionnaire de Tâches</h3>
+                <p>Application web pour organiser ses projets quotidiens avec stockage local.</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                </div>
             </div>
-            <div>
-                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="">
-                <h2>Maquette mobile UI</h2>
-                <p>Conception d'une interface utilisateur moderne pour une application de fitness</p>
-                <span>figma</span>
-                <span>design</span>
+            <div class="card-footer">
+                <a href="#">Code</a>
+                <a href="#">Démo</a>
             </div>
-        </section>
-    </main>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="Image/946eed76eb96235677f9899984cff751.jpg" alt="Blog Personnel">
+            </div>
+            <div class="card-content">
+                <h3>Blog Personnel</h3>
+                <p>Projet en cours de migration vers Laravel pour apprendre le backend.</p>
+                <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">Laravel</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#">Code</a>
+                <span class="status">Bientôt</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="Image/de0c668e53f0393c7ec8c32aa210b7c4.jpg" alt="Dashboard">
+            </div>
+            <div class="card-content">
+                <h3>Dashboard d'Analyse</h3>
+                <p>Visualisation de données dynamiques avec Python et la bibliothèque Matplotlib.</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Data</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#">Code</a>
+                <a href="#">Démo</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="Image/b5c26de164a40e31837507d98f9f38fb.jpg" alt="Météo">
+            </div>
+            <div class="card-content">
+                <h3>Application Météo</h3>
+                <p>Une application utilisant une API en temps réel pour afficher la météo mondiale.</p>
+                <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">API</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#">Code</a>
+                <a href="#">Démo</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="Image/17542b43a54165eb637c74ddc0dc1a18.jpg" alt="UI Design">
+            </div>
+            <div class="card-content">
+                <h3>Maquette Mobile UI</h3>
+                <p>Conception d'une interface utilisateur moderne pour une application de fitness.</p>
+                <div class="tags">
+                    <span class="tag">Figma</span>
+                    <span class="tag">Design</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#">Design</a>
+                <a href="#">Aperçu</a>
+            </div>
+        </div>
+    </section>
+</main>
     <footer>
             <p>© 2026 ConDite. Tous droit réservés</p>
             <nav>
